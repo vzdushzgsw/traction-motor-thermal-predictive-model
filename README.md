@@ -8,3 +8,5 @@ When the model predicts a high risk of overheating, it triggers a Vehicle Contro
 * **Motor Current (`Stator_Current_Amps`):** Simulates the real-time electrical current drawn by the motor, ranging from a light 50.0A cruise up to a heavy 450.0A acceleration.
 * **Coolant Flow (`Coolant_Flow_Lmin`):** Simulates the liquid cooling system's fluid flow rate, ranging from a restricted 2.0 L/min up to a maximum pump capacity of 15.0 L/min.
 * **Prediction Target (`Turtle_Trigger`):** The final AI output decision (`0` = Safe / Normal Operation, `1` = Overheating Risk / Activate Turtle Mode).
+
+This project was developed and validated inside **Google Colab**. You can run the interactive live cockpit interface instantly without installing any local Python environment.
